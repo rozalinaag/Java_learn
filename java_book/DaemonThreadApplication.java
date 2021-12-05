@@ -2,6 +2,10 @@ package com.company;
 
 import javax.swing.*;
 
+/**
+* Демон-поток выполняется в фоновом режиме. Выскакивает каждые 3 секунды диологовое окно. Пока пользователь не нажмет кнопку ДА, оно будет работать бесконечно 
+*/
+
 import static javax.swing.JOptionPane.*;
 
 public class DaemonThreadApplication {
